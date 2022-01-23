@@ -1,0 +1,35 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+    "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ja" lang="ja">
+    <head>
+        <title>Dictionary Viewer</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" >
+        <link rel="shortcut icon" href="redKiwiBird.png?v=2">
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="ControlArea" name="controlArea">
+            <form name="form" onsubmit="return false" style="float:left">
+                <select id="DicSel" onchange="dicChange();"></select>
+                <select id="TOCSel" onchange="tocChange(this.value);"></select>
+                <input type="text" id="EntryField" name="entry" spellcheck="false" autocomplete="off" size="40"/>
+                <input type="submit" id="EnterButton" onclick="search()" value="検索（Enter）"/>
+                <input type="button" id="ClearButton" onclick="clearField()" value="クリア（ESC）"/>
+            </form>
+            <div style="float:right">
+                 <input type="button" id="PrevButton" onclick="prevPage()" value="前ページ"/>
+                <input type="button" id="NextButton" onclick="nextPage()" value="次ページ"/>
+            </div>
+        </div>
+        <div class="img-magnifier-container">
+            <div class="resizedimage">
+                <img id="ImageArea"></img>
+            </div>
+            <div class="fullsizedimage">
+                <img class="fsimage" id="FullSizedImageArea"></img>
+            </div>
+        </div>
+        <script src="./config.js"></script>
+        <script src="./scripts/dicReader.js"></script>
+    </body>
+</html>
