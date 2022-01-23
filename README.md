@@ -25,7 +25,7 @@
 1. このアプリは以下のURLから取得可能です。  
 https://github.com/mmurak/dicViewer/archive/refs/heads/main.zip  
 ZIPファイルをダウンロードできたら、ダブルクリックして展開してください。
-これでmacOSなら「ダウンロード」フォルダー（~/Downloads/）上に dicViewer-main-というフォルダーが作成されます。
+これでmacOSなら「ダウンロード」フォルダー（~/Downloads/）上に dicViewer-mainというフォルダーが作成されます。
 
 2. 辞典のPDFは以下のURLから取得可能です。  
 新英和大辭典（研究社, 1929）： https://dl.ndl.go.jp/info:ndljp/pid/1126810  
