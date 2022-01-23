@@ -27,7 +27,7 @@ https://github.com/mmurak/dicViewer/archive/refs/heads/main.zip
 ZIPファイルをダウンロードできたら、ダブルクリックして展開してください。
 これでmacOSなら「ダウンロード」フォルダー（~/Downloads/）上に dicViewer-mainというフォルダーが作成されます。
 
-2. 辞典のPDFは以下のURLから取得可能です。  
+2. 辞典のPDFは以下のURLから取得可能です（JPGと書かれた黒いアイコンの右隣にある「下向き矢印」がダウンロード用のアイコンです）。  
 新英和大辭典（研究社, 1929）： https://dl.ndl.go.jp/info:ndljp/pid/1126810  
 新英和中辭典（研究社, 1929）： https://dl.ndl.go.jp/info:ndljp/pid/1904907  
 ※ これらのファイルはかなり大きい（400MB超と300MB弱）のでダウンロードにもそれなりの時間がかかります。　デジタルコレクションのサーバーに負担がかからない時間帯を選び、1つずつダウンロードしてください。
