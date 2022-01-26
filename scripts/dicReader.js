@@ -151,7 +151,7 @@ function getIndex(targetEntry) {
             return indexData[1][i][1];
         }
     }
-    return -1;
+    return indexData[1][indexData[1].length - 1][1];
 }
 
 function search() {
