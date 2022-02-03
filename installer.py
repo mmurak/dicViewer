@@ -39,7 +39,7 @@ def explodePDF(filenamebody):
 for filename in glob.glob('*.pdf'):
     filenamebody = os.path.splitext(filename)[0]
     if not os.path.exists(f'{resourceDir}{os.sep}{filenamebody}'):      # resource下にフォルダがない場合のみ処理
-        print(f'professing {filenamebody}')
+        print(f'processing {filenamebody}')
         numOfPages = explodePDF(filenamebody)       # PDFから画像を抽出
         if os.path.exists(f'{originalIdx}{os.sep}{filenamebody}.js'):       # index.jsが用意されている文献
             shutil.copyfile(f'{originalIdx}{os.sep}{filenamebody}.js', f'{resourceDir}{os.sep}{filenamebody}{os.sep}index.js')
